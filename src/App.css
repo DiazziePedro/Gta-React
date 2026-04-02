@@ -35,10 +35,10 @@ footer small{
   float: left;
   margin-left: 5%;
   margin-top: 2vh;
-  background: red;
+  /* background: red; */
 }
 .rs{
-  width: 25%;
+ width: 25%;
   height: auto;
   aspect-ratio: 1/1;
   float: left;
@@ -46,4 +46,12 @@ footer small{
   margin-left: 6.6%;
   margin-top: 2vh;
   border-radius: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icone{
+  width: 50%;
+  height: auto;
+  color: rgb(255, 47, 192);
 }
